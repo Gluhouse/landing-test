@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
+  padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
@@ -218,5 +219,120 @@ header {
 
 .fw-700 {
   font-weight: 700;
+}
+
+.display {
+  height: 703px;
+  background-image: url(./images/body/display/display.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.display h1 {
+  padding-top: 36px;
+  margin-left: auto;
+  width: 87%;
+  font-size: 33px;
+  font-weight: 600;
+  text-align: start;
+}
+
+.display span {
+  font-weight: 800;
+  color: #272447;
+}
+
+.display button {
+  margin-top: 105%;
+}
+
+.compare {
+  height: 600px;
+  background-image: url(./images/body/compare/compare.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  background-color: #272447;
+}
+
+.compare h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 24px 38px 46.5%;
+  text-align: start;
+}
+
+.compare ul {
+  list-style: none;
+}
+
+.compare__list-item {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.compare .buy-btn {
+  margin-top: 38px;
+}
+
+.functions {
+  height: 1089px;
+  background-image: url(./images/body/functions/functions.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.functions h2 {
+  font-size: 28px;
+  margin-left: 16px;
+  text-align: start;
+}
+
+.functions h2:nth-child(1) {
+  padding-top: 5%;
+  margin-bottom: 75%;
+}
+
+.functions h3 {
+  text-align: start;
+  margin-bottom: 84%;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 16px;
+}
+
+.functions ul {
+  text-align: start;
+  list-style: none;
+  padding: 20px 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.functions__item {
+  position: relative;
+  width: 28%;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.functions__item span {
+  position: relative;
+  left: 33px;
+  bottom: 10px;
+}
+
+.functions__item:nth-child(6) span {
+  left: 38px;
 }
 /*# sourceMappingURL=index.css.map */
