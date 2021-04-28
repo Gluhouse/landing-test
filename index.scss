@@ -2,19 +2,30 @@
 
 $red-grad: rgb(188, 1, 46);
 $blue: #261d88;
+$purple: #272447;
 
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 
 header {
+  width: 480px;
   height: 1242px;
   background-image: url(./images/header/promo.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   text-align: center;
+}
+body {
+  width: 480px;
+}
+
+footer {
+  width: 480px;
 }
 
 .heading {
@@ -134,6 +145,8 @@ header {
   outline: none;
   border: none;
   margin-bottom: 26px;
+  display: inline-block;
+  text-decoration: none;
 }
 .header-footer {
   font-weight: 700;
@@ -159,4 +172,482 @@ header {
 
 .fw-700 {
   font-weight: 700;
+}
+
+.display {
+  height: 703px;
+  background-image: url(./images/body/display/display.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+
+.display h1 {
+  padding-top: 36px;
+  margin-left: auto;
+  width: 87%;
+  font-size: 33px;
+  font-weight: 600;
+  text-align: start;
+}
+
+.display span {
+  font-weight: 800;
+  color: $purple;
+}
+
+.display a {
+  margin-top: 105%;
+}
+
+.compare {
+  height: 600px;
+  background-image: url(./images/body/compare/compare.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  background-color: $purple;
+}
+
+.compare h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 24px 38px 46.5%;
+  text-align: start;
+}
+
+.compare ul {
+  list-style: none;
+}
+.compare__list-item {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.compare .buy-btn {
+  margin-top: 38px;
+}
+.functions {
+  height: 1089px;
+  background-image: url(./images/body/functions/functions.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  color: white;
+}
+
+.functions h2 {
+  font-size: 28px;
+  margin-left: 16px;
+  text-align: start;
+}
+
+.functions h2:nth-child(1) {
+  padding-top: 5%;
+  margin-bottom: 75%;
+}
+
+.functions h3 {
+  text-align: start;
+  margin-bottom: 84%;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 16px;
+}
+
+.functions ul {
+  text-align: start;
+  list-style: none;
+  padding: 20px 68px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.functions__item {
+  position: relative;
+  width: 28%;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.functions__item span {
+  position: relative;
+  left: 33px;
+  bottom: 10px;
+}
+
+.functions__item:nth-child(6) span {
+  left: 38px;
+}
+
+.noisecancel {
+  height: 1001px;
+  background-image: url(./images/body/noisecancel/noisecancel.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  color: white;
+}
+
+.noisecancel h2 {
+  padding-top: 100px;
+  margin-bottom: 140%;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.noisecancel p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.surround {
+  height: 670px;
+  background-image: url(./images/body/surround/surround.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+.surround .wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.surround-desc {
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 600;
+  color: white;
+  width: 14%;
+  padding-top: 132px;
+  margin: 0 22px;
+}
+.bluetooth {
+  height: 900px;
+  background-image: url(./images/body/bluetooth/bluetooth.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: start;
+}
+
+.bluetooth h3 {
+  padding-top: 84px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.bluetooth h3:nth-child(1) {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 124%;
+}
+
+.bluetooth h3:nth-child(2) {
+  width: 90%;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.powerbank {
+  height: 845px;
+  background-image: url(./images/body/powerbank/powerbank.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  color: white;
+}
+
+.powerbank h2 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.powerbank p {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.powerbank p,
+.powerbank h2 {
+  margin-left: 16px;
+  text-align: start;
+}
+
+.powerbank a {
+  margin-bottom: 60px;
+}
+
+.mb-86 {
+  margin-bottom: 86%;
+}
+
+.battery {
+  height: 764px;
+  background-image: url(./images/body/battery/battery.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  color: white;
+}
+.battery h3 {
+  text-align: start;
+  color: black;
+  font-size: 20px;
+  line-height: 18px;
+  font-weight: 700;
+  width: 50%;
+}
+.battery h3:nth-child(1) {
+  text-align: end;
+  padding-top: 66%;
+  margin-bottom: 27%;
+  margin-left: 47%;
+}
+.battery h3:nth-child(2) {
+  margin-bottom: 8%;
+  margin-left: 55%;
+}
+
+.battery h3:nth-child(3) {
+  margin-left: 7%;
+  margin-bottom: 35px;
+}
+
+.specs {
+  height: 847px;
+  background-image: url(./images/body/specs/specs.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  color: black;
+}
+
+.specs h2 {
+  margin: 0 auto;
+  width: 70%;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 20%;
+}
+.specs p {
+  font-size: 16px;
+  font-weight: 600;
+  width: 15%;
+}
+
+.specs ul {
+  list-style: none;
+  text-align: start;
+  margin-left: 44%;
+}
+
+.specs__list-item {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 6px;
+}
+
+.specs__list-item:last-child {
+  margin-bottom: 59px;
+}
+.reviews {
+  height: 694px;
+  text-align: start;
+  color: black;
+}
+
+.reviews h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 56px;
+}
+.review-card {
+}
+.review-card__wrapper {
+  width: 94%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper-info {
+  padding-top: 3px;
+  margin: 0 170px 0 18px;
+}
+
+.wrapper-rating {
+  padding-top: 7px;
+}
+.review-card__avatar {
+}
+.review-card__name {
+}
+.review-card__age {
+}
+.review-card__rating {
+}
+.star {
+}
+.review-card__date {
+}
+.review-card__text {
+  padding-top: 21px;
+  text-align: start;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 26px;
+}
+
+.ml-29 {
+  margin-left: 29%;
+}
+.ml-61 {
+  margin-left: 61%;
+}
+
+.ml-67 {
+  margin-left: 67%;
+}
+
+.mb-31px {
+  margin-bottom: 31px;
+}
+
+.mb-53 {
+  margin-bottom: 53%;
+}
+
+.buy-info {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  padding-top: 64px;
+  margin-bottom: 48px;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.buy-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+.buy-card {
+  background-color: $red-grad;
+  width: 208px;
+  height: 194px;
+  border-radius: 20px;
+  margin: 0 8px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.buy-card__img {
+  margin-bottom: 18px;
+}
+
+.buy-card__desc {
+  width: 95%;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.pt-12px {
+  padding-top: 12px;
+}
+
+.header-link {
+  font-size: 30px;
+  font-weight: 700;
+  display: block;
+  text-decoration: none;
+  margin-left: 34.5%;
+  margin-right: 33%;
+  margin-bottom: 122px;
+  color: black;
+}
+
+.buy-form {
+  width: 90%;
+  border-radius: 20px;
+  background-color: $red-grad;
+  height: 503px;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buy-form h2 {
+  padding-top: 38px;
+  margin-bottom: 8px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.buy-form h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.form-input {
+  border-radius: 10px;
+  border: 1px white solid;
+  background: none;
+  padding: 15px 15px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+.input__name {
+}
+
+input::placeholder {
+  color: white;
+}
+
+input {
+  outline: none;
+  color: white;
+}
+
+.input__phone {
+  margin-bottom: 40px;
+}
+.submit-btn {
+  width: 80%;
+  padding: 12px 0;
+  outline: none;
+  border-radius: 50px;
+  background-color: white;
+  color: #2f3030;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+label {
+  display: flex;
+  align-items: center;
+  width: 84%;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+.input__checkbox {
+  width: auto;
+  margin-right: 6px;
 }
