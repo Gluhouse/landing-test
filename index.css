@@ -446,7 +446,7 @@ footer {
 }
 
 .powerbank p,
-h2 {
+.powerbank h2 {
   margin-left: 16px;
   text-align: start;
 }
@@ -457,5 +457,309 @@ h2 {
 
 .mb-86 {
   margin-bottom: 86%;
+}
+
+.battery {
+  height: 764px;
+  background-image: url(./images/body/battery/battery.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  color: white;
+}
+
+.battery h3 {
+  text-align: start;
+  color: black;
+  font-size: 20px;
+  line-height: 18px;
+  font-weight: 700;
+  width: 50%;
+}
+
+.battery h3:nth-child(1) {
+  text-align: end;
+  padding-top: 66%;
+  margin-bottom: 27%;
+  margin-left: 47%;
+}
+
+.battery h3:nth-child(2) {
+  margin-bottom: 8%;
+  margin-left: 55%;
+}
+
+.battery h3:nth-child(3) {
+  margin-left: 7%;
+  margin-bottom: 35px;
+}
+
+.specs {
+  height: 847px;
+  background-image: url(./images/body/specs/specs.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  color: black;
+}
+
+.specs h2 {
+  margin: 0 auto;
+  width: 70%;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 20%;
+}
+
+.specs p {
+  font-size: 16px;
+  font-weight: 600;
+  width: 15%;
+}
+
+.specs ul {
+  list-style: none;
+  text-align: start;
+  margin-left: 44%;
+}
+
+.specs__list-item {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 6px;
+}
+
+.specs__list-item:last-child {
+  margin-bottom: 59px;
+}
+
+.reviews {
+  height: 694px;
+  text-align: start;
+  color: black;
+}
+
+.reviews h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 56px;
+}
+
+.review-card__wrapper {
+  width: 94%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wrapper-info {
+  padding-top: 3px;
+  margin: 0 170px 0 18px;
+}
+
+.wrapper-rating {
+  padding-top: 7px;
+}
+
+.review-card__text {
+  padding-top: 21px;
+  text-align: start;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 26px;
+}
+
+.ml-29 {
+  margin-left: 29%;
+}
+
+.ml-61 {
+  margin-left: 61%;
+}
+
+.ml-67 {
+  margin-left: 67%;
+}
+
+.mb-31px {
+  margin-bottom: 31px;
+}
+
+.mb-53 {
+  margin-bottom: 53%;
+}
+
+.buy-info {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  padding-top: 64px;
+  margin-bottom: 48px;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.buy-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 200px;
+}
+
+.buy-card {
+  background-color: #bc012e;
+  width: 208px;
+  height: 194px;
+  border-radius: 20px;
+  margin: 0 8px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.buy-card__img {
+  margin-bottom: 18px;
+}
+
+.buy-card__desc {
+  width: 95%;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.pt-12px {
+  padding-top: 12px;
+}
+
+.header-link {
+  font-size: 30px;
+  font-weight: 700;
+  display: block;
+  text-decoration: none;
+  margin-left: 34.5%;
+  margin-right: 33%;
+  margin-bottom: 122px;
+  color: black;
+}
+
+.buy-form {
+  width: 90%;
+  border-radius: 20px;
+  background-color: #bc012e;
+  height: 503px;
+  margin: 0 auto;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buy-form h2 {
+  padding-top: 38px;
+  margin-bottom: 8px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.buy-form h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.form-input {
+  border-radius: 10px;
+  border: 1px white solid;
+  background: none;
+  padding: 15px 15px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+input::-webkit-input-placeholder {
+  color: white;
+}
+
+input:-ms-input-placeholder {
+  color: white;
+}
+
+input::-ms-input-placeholder {
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+input {
+  outline: none;
+  color: white;
+}
+
+.input__phone {
+  margin-bottom: 40px;
+}
+
+.submit-btn {
+  width: 80%;
+  padding: 12px 0;
+  outline: none;
+  border-radius: 50px;
+  background-color: white;
+  color: #2f3030;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 55px;
+}
+
+label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 84%;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+
+.input__checkbox {
+  width: auto;
+  margin-right: 6px;
 }
 /*# sourceMappingURL=index.css.map */
