@@ -9,14 +9,23 @@ $purple: #272447;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 
 header {
+  width: 480px;
   height: 1242px;
   background-image: url(./images/header/promo.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   text-align: center;
+}
+body {
+  width: 480px;
+}
+
+footer {
+  width: 480px;
 }
 
 .heading {
@@ -136,6 +145,8 @@ header {
   outline: none;
   border: none;
   margin-bottom: 26px;
+  display: inline-block;
+  text-decoration: none;
 }
 .header-footer {
   font-weight: 700;
@@ -167,7 +178,7 @@ header {
   height: 703px;
   background-image: url(./images/body/display/display.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   text-align: center;
 }
 
@@ -185,7 +196,7 @@ header {
   color: $purple;
 }
 
-.display button {
+.display a {
   margin-top: 105%;
 }
 
@@ -221,7 +232,7 @@ header {
   height: 1089px;
   background-image: url(./images/body/functions/functions.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   text-align: center;
   color: white;
 }
@@ -248,7 +259,7 @@ header {
 .functions ul {
   text-align: start;
   list-style: none;
-  padding: 20px 68px;
+  padding: 20px 68px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -268,4 +279,109 @@ header {
 
 .functions__item:nth-child(6) span {
   left: 38px;
+}
+
+.noisecancel {
+  height: 1001px;
+  background-image: url(./images/body/noisecancel/noisecancel.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  color: white;
+}
+
+.noisecancel h2 {
+  padding-top: 100px;
+  margin-bottom: 140%;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.noisecancel p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.surround {
+  height: 670px;
+  background-image: url(./images/body/surround/surround.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+.surround .wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.surround-desc {
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 600;
+  color: white;
+  width: 14%;
+  padding-top: 132px;
+  margin: 0 22px;
+}
+.bluetooth {
+  height: 900px;
+  background-image: url(./images/body/bluetooth/bluetooth.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: start;
+}
+
+.bluetooth h3 {
+  padding-top: 84px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.bluetooth h3:nth-child(1) {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 124%;
+}
+
+.bluetooth h3:nth-child(2) {
+  width: 90%;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.powerbank {
+  height: 845px;
+  background-image: url(./images/body/powerbank/powerbank.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  color: white;
+}
+
+.powerbank h2 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.powerbank p {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.powerbank p,
+h2 {
+  margin-left: 16px;
+  text-align: start;
+}
+
+.powerbank a {
+  margin-bottom: 60px;
+}
+
+.mb-86 {
+  margin-bottom: 86%;
 }
